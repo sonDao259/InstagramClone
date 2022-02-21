@@ -35,6 +35,7 @@ html{
     font-weight: bold;
     text-decoration: none;
     color: var(--text-color);
+    font-family: 'Brush Script MT', cursive;
     
 }
 .header__block-search {
@@ -80,6 +81,7 @@ html{
     flex: 1;
     display: flex;
     align-items: center;
+    /* justify-content: flex-end; */
 }
 .header__block-utility-bar-mobile {
     width: 100%;
@@ -153,7 +155,7 @@ html{
 .story-bar {
     width: 614px;
     max-width: 100%;
-    overflow-x: scroll;
+    overflow-x: auto;
     height: 118px;
     border: 1px solid var(--border-color);
     display: flex;
